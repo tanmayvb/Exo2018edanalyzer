@@ -1,11 +1,12 @@
-# Exo2018edanalyzer
+<p><b> The aim is to make all setup 2016, 2017 and 2018 in a same place. Currently devoliping for 2018 Data, MC </b></p>
+
 Installation of ExoPieElement and dependencies for 2018 Data and Mc
 
-Working on lxplus7
+##Working on lxplus7
 
-setup CMSSW 
+##setup CMSSW 
 
-###SCRAM ARCH SET for CMSSW_10_2_10
+##SCRAM ARCH SET for CMSSW_10_2_10
 
 export SCRAM_ARCH=slc7_amd64_gcc700
 
@@ -29,7 +30,7 @@ scram b -j 4
 
 cd ExoPieElement/TreeMaker/test/
 
-## ## For Photon ID and other
+## For Photon ID and other
 Please change treeMaker_Summer17_cfg.py by the followings:
 
 1--> from RecoEgamma.EgammaTools.EgammaPostRecoTools import setupEgammaPostRecoSeq
